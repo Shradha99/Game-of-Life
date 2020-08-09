@@ -9,3 +9,6 @@ The next_state function is the one which estimates the next state. It uses two o
 An intermediate one-line buffer stores the future state of a line for time-being and after its values have been copied to the relevant buffer(buff1 or buff2), it is deleted. 
 
 The two buffers have been used instead of a complete new array for the purpose of saving memory. 
+
+Source.cpp contains the code.
+Game of life demo.txt conatins a snippet of the output showing the original generation as well as the next two generations.
