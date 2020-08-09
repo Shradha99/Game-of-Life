@@ -13,4 +13,7 @@ The two buffers have been used instead of a complete new array for the purpose o
 
 Source.cpp contains the code.
 
-Game of life demo.txt conatins a snippet of the output showing the original generation as well as the next two generations.
+Game of life demo.txt conatins a snippet of the output showing the original generation as well as the next two generations. It does so for two cases: 
+1) if the user enters the initial state and
+2) if we use the rand() function to randomly generate the initial state. 
+The original generation, Generation 1 and Generation 2 look identical in both the cases. 
