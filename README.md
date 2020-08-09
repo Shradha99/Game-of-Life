@@ -1,8 +1,9 @@
 # Game-of-Life
 Language used: C++. 
 
-The code first asks the user for the dimensions of the 2-dimensional array. Then, it creates a dynamic 2-D array of the required dimensions and populates it with zeros on the boundaries to avoid discrepancies when we reach the boundary.
-It then uses the rand() function of C++ to randomly allot 1 or 0 to the remaining cells. A cell having a value of 0 denotes that it is dead and that having value 1 is alive.
+The code first asks the user for the dimensions of the 2-dimensional array. Then, it creates a dynamic 2-D array of both rows and columns 2 greater than those entered and pads the boundary with zeros to avoid discrepancies when we reach the boundary. A cell having a value of 0 denotes that it is dead and that having value 1 is alive.
+
+It then takes input from the user for the initial state(whose dimensions are equal to the dimensions entered). In contrast to this, we can also use the rand() function of C++ to randomly allot 1 or 0 to those cells if we don't want to enter the values manually everytime. I have commented out that part of the code. 
 
 Following this, the code works upon the user's discretion. If the user enters a y (denoting yes), then the next generation is displayed otherwise not. The time taken to display each generation can also be seen on the output terminal.
 
