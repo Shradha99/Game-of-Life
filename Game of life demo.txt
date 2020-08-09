@@ -1,0 +1,114 @@
+Here is a snippet of the output(Following the original generation, 2 generations have been determined)::
+
+//using input from the user
+
+Enter the no. of rows and columns
+8
+8
+Enter the initial state
+0 1 1 0 0 0 0 0
+0 0 0 0 1 1 0 1
+0 0 0 0 1 0 0 1
+1 0 1 1 0 1 0 0
+1 0 0 1 0 0 1 0
+0 1 0 1 0 1 0 1
+0 1 1 0 1 0 1 0
+1 1 0 1 1 1 0 0
+
+Original Generation
+0 0 0 0 0 0 0 0 0 0
+0 0 1 1 0 0 0 0 0 0
+0 0 0 0 0 1 1 0 1 0
+0 0 0 0 0 1 0 0 1 0
+0 1 0 1 1 0 1 0 0 0
+0 1 0 0 1 0 0 1 0 0
+0 0 1 0 1 0 1 0 1 0
+0 0 1 1 0 1 0 1 0 0
+0 1 1 0 1 1 1 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+Enter y if you want to see the next generation, else enter n
+y
+
+Generation 1
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 1 1 1 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 1 1 1 0 1 1 0 0
+0 1 0 0 1 0 1 1 0 0
+0 1 1 0 1 0 1 0 1 0
+0 0 0 0 0 0 0 1 0 0
+0 1 1 0 1 1 1 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+Enter y if you want to see the next generation, else enter n
+Time taken:15
+y
+
+Generation 2
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 0 0 0
+0 0 0 0 0 1 1 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 1 1 1 0 1 1 0 0
+0 1 0 0 1 0 0 0 1 0
+0 1 1 1 0 0 1 0 1 0
+0 0 0 0 1 0 0 1 0 0
+0 0 0 0 0 1 1 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+Enter y if you want to see the next generation, else enter n
+Time taken:42
+
+//using rand() function that doesn't require input from user for initial state
+
+Enter the no. of rows and columns
+10
+10
+
+Original Generation
+0 0 0 0 0 0 0 0 0 0
+0 0 1 1 0 0 0 0 0 0
+0 0 0 0 0 1 1 0 1 0
+0 0 0 0 0 1 0 0 1 0
+0 1 0 1 1 0 1 0 0 0
+0 1 0 0 1 0 0 1 0 0
+0 0 1 0 1 0 1 0 1 0
+0 0 1 1 0 1 0 1 0 0
+0 1 1 0 1 1 1 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+Enter y if you want to see the next generation, else enter n
+y
+
+Generation 1
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 1 1 1 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 1 1 1 0 1 1 0 0
+0 1 0 0 1 0 1 1 0 0
+0 1 1 0 1 0 1 0 1 0
+0 0 0 0 0 0 0 1 0 0
+0 1 1 0 1 1 1 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+Enter y if you want to see the next generation, else enter n
+Time taken:13
+y
+
+Generation 2
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 0 0 0
+0 0 0 0 0 1 1 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 1 1 1 0 1 1 0 0
+0 1 0 0 1 0 0 0 1 0
+0 1 1 1 0 0 1 0 1 0
+0 0 0 0 1 0 0 1 0 0
+0 0 0 0 0 1 1 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+Enter y if you want to see the next generation, else enter n
+Time taken:39
