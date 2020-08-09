@@ -1,5 +1,6 @@
 # Game-of-Life
-Language used: C++
+Language used: C++. 
+
 The code first asks the user for the dimensions of the 2-dimensional array. Then, it creates a dynamic 2-D array of the required dimensions and populates it with zeros on the boundaries to avoid discrepancies when we reach the boundary.
 It then uses the rand() function of C++ to randomly allot 1 or 0 to the remaining cells. A cell having a value of 0 denotes that it is dead and that having value 1 is alive.
 
